@@ -1,0 +1,16 @@
+.tabs{
+	margin-top: 3em;
+}
+
+.tabs > .tab{
+	display: inline-block;
+}
+
+.tabs > .tab > .tab-title{
+	position: relative;
+}
+
+.tabs > .tab > .tab-canvas{
+	position: absolute;
+}
+

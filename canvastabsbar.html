@@ -1,0 +1,30 @@
+<html>
+<head>
+	<link rel="stylesheet" href="canvastabsbar.css" />
+	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="canvastabsbar.js"></script>
+</head>
+<body>
+<div data-role=page>
+	<div class="tabs">
+		<div class="tab selected">
+			<canvas class="tab-canvas"></canvas>
+			<div class="tab-title">s'inscrire</div>
+		</div>
+		<div class="tab">
+			<canvas class="tab-canvas"></canvas>
+			<div class="tab-title">se connecter</div>
+		</div>
+                <div class="tab desactivated">
+                        <canvas class="tab-canvas"></canvas>
+                        <div class="tab-title">informations</div>
+                </div>
+	</tabs>
+</div>
+<script type="text/javascript">
+	$(document).ready(function(){
+		createCanvasTabsBar("3em", 1);
+	});
+</script>
+</body>
+</html>
